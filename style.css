@@ -98,6 +98,11 @@ input[type=text] {
     border: none;
     border-bottom: 2px solid #363232;
     width: 40%;
+    text-align: center;
+}
+
+input[type=text]:focus {
+    outline: none;
 }
 
 input[type=submit] {
@@ -151,8 +156,7 @@ footer li {
 
 /* styles for Bluehydrangea.html */
 .info-div {
-    border: solid black 2px;
-    height: 1000px;
+    height: 1100px;
     margin-top: 50px;
     
 }
@@ -165,7 +169,6 @@ footer li {
     display: flex;
     justify-content: center;
     width: 60%;
-    border: solid black 2px;
     height: 500px;
 
 }
@@ -183,7 +186,6 @@ footer li {
     width: 40%;
     height: auto;
     font-family: 'Amatic SC', cursive;
-    border: solid red 2px;
     text-align: center;
     font-size: 30px;
     padding-top: 30px;
@@ -196,12 +198,12 @@ footer li {
 #table-container {
     height: 500px;
     width: 100%;
-    display: flex;
-    border: solid purple 2px;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
 
 }
+
 
 #table-container table {
     border: solid #363232  1px;
@@ -210,6 +212,8 @@ footer li {
    
 
 }
+
+
 
 th {
     background-color: #363232;
